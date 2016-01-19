@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893AF7A51C4E24D6007872E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 893AF7A41C4E24D6007872E2 /* main.m */; };
+		893AF7A81C4E24D6007872E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 893AF7A71C4E24D6007872E2 /* AppDelegate.m */; };
+		893AF7AB1C4E24D6007872E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893AF7AA1C4E24D6007872E2 /* ViewController.m */; };
+		893AF7AE1C4E24D6007872E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893AF7AC1C4E24D6007872E2 /* Main.storyboard */; };
+		893AF7B01C4E24D6007872E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893AF7AF1C4E24D6007872E2 /* Assets.xcassets */; };
+		893AF7B31C4E24D6007872E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893AF7B11C4E24D6007872E2 /* LaunchScreen.storyboard */; };
+		893AF7BE1C4E24D6007872E2 /* CYNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 893AF7BD1C4E24D6007872E2 /* CYNewsTests.m */; };
+		893AF7C91C4E24D6007872E2 /* CYNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 893AF7C81C4E24D6007872E2 /* CYNewsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		893AF7BA1C4E24D6007872E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 893AF7981C4E24D6007872E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893AF79F1C4E24D6007872E2;
+			remoteInfo = CYNews;
+		};
+		893AF7C51C4E24D6007872E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 893AF7981C4E24D6007872E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893AF79F1C4E24D6007872E2;
+			remoteInfo = CYNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		893AF7A01C4E24D6007872E2 /* CYNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893AF7A41C4E24D6007872E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		893AF7A61C4E24D6007872E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		893AF7A71C4E24D6007872E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		893AF7A91C4E24D6007872E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		893AF7AA1C4E24D6007872E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		893AF7AD1C4E24D6007872E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893AF7AF1C4E24D6007872E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		893AF7B21C4E24D6007872E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		893AF7B41C4E24D6007872E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893AF7B91C4E24D6007872E2 /* CYNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		893AF7BD1C4E24D6007872E2 /* CYNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYNewsTests.m; sourceTree = "<group>"; };
+		893AF7BF1C4E24D6007872E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893AF7C41C4E24D6007872E2 /* CYNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		893AF7C81C4E24D6007872E2 /* CYNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYNewsUITests.m; sourceTree = "<group>"; };
+		893AF7CA1C4E24D6007872E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893AF79D1C4E24D6007872E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893AF7B61C4E24D6007872E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893AF7C11C4E24D6007872E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893AF7971C4E24D6007872E2 = {
+			isa = PBXGroup;
+			children = (
+				893AF7A21C4E24D6007872E2 /* CYNews */,
+				893AF7BC1C4E24D6007872E2 /* CYNewsTests */,
+				893AF7C71C4E24D6007872E2 /* CYNewsUITests */,
+				893AF7A11C4E24D6007872E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		893AF7A11C4E24D6007872E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893AF7A01C4E24D6007872E2 /* CYNews.app */,
+				893AF7B91C4E24D6007872E2 /* CYNewsTests.xctest */,
+				893AF7C41C4E24D6007872E2 /* CYNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893AF7A21C4E24D6007872E2 /* CYNews */ = {
+			isa = PBXGroup;
+			children = (
+				893AF7A61C4E24D6007872E2 /* AppDelegate.h */,
+				893AF7A71C4E24D6007872E2 /* AppDelegate.m */,
+				893AF7A91C4E24D6007872E2 /* ViewController.h */,
+				893AF7AA1C4E24D6007872E2 /* ViewController.m */,
+				893AF7AC1C4E24D6007872E2 /* Main.storyboard */,
+				893AF7AF1C4E24D6007872E2 /* Assets.xcassets */,
+				893AF7B11C4E24D6007872E2 /* LaunchScreen.storyboard */,
+				893AF7B41C4E24D6007872E2 /* Info.plist */,
+				893AF7A31C4E24D6007872E2 /* Supporting Files */,
+			);
+			path = CYNews;
+			sourceTree = "<group>";
+		};
+		893AF7A31C4E24D6007872E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				893AF7A41C4E24D6007872E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		893AF7BC1C4E24D6007872E2 /* CYNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				893AF7BD1C4E24D6007872E2 /* CYNewsTests.m */,
+				893AF7BF1C4E24D6007872E2 /* Info.plist */,
+			);
+			path = CYNewsTests;
+			sourceTree = "<group>";
+		};
+		893AF7C71C4E24D6007872E2 /* CYNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				893AF7C81C4E24D6007872E2 /* CYNewsUITests.m */,
+				893AF7CA1C4E24D6007872E2 /* Info.plist */,
+			);
+			path = CYNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893AF79F1C4E24D6007872E2 /* CYNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893AF7CD1C4E24D6007872E2 /* Build configuration list for PBXNativeTarget "CYNews" */;
+			buildPhases = (
+				893AF79C1C4E24D6007872E2 /* Sources */,
+				893AF79D1C4E24D6007872E2 /* Frameworks */,
+				893AF79E1C4E24D6007872E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYNews;
+			productName = CYNews;
+			productReference = 893AF7A01C4E24D6007872E2 /* CYNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		893AF7B81C4E24D6007872E2 /* CYNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893AF7D01C4E24D6007872E2 /* Build configuration list for PBXNativeTarget "CYNewsTests" */;
+			buildPhases = (
+				893AF7B51C4E24D6007872E2 /* Sources */,
+				893AF7B61C4E24D6007872E2 /* Frameworks */,
+				893AF7B71C4E24D6007872E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893AF7BB1C4E24D6007872E2 /* PBXTargetDependency */,
+			);
+			name = CYNewsTests;
+			productName = CYNewsTests;
+			productReference = 893AF7B91C4E24D6007872E2 /* CYNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		893AF7C31C4E24D6007872E2 /* CYNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893AF7D31C4E24D6007872E2 /* Build configuration list for PBXNativeTarget "CYNewsUITests" */;
+			buildPhases = (
+				893AF7C01C4E24D6007872E2 /* Sources */,
+				893AF7C11C4E24D6007872E2 /* Frameworks */,
+				893AF7C21C4E24D6007872E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893AF7C61C4E24D6007872E2 /* PBXTargetDependency */,
+			);
+			name = CYNewsUITests;
+			productName = CYNewsUITests;
+			productReference = 893AF7C41C4E24D6007872E2 /* CYNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893AF7981C4E24D6007872E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "陈宇";
+				TargetAttributes = {
+					893AF79F1C4E24D6007872E2 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					893AF7B81C4E24D6007872E2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 893AF79F1C4E24D6007872E2;
+					};
+					893AF7C31C4E24D6007872E2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 893AF79F1C4E24D6007872E2;
+					};
+				};
+			};
+			buildConfigurationList = 893AF79B1C4E24D6007872E2 /* Build configuration list for PBXProject "CYNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893AF7971C4E24D6007872E2;
+			productRefGroup = 893AF7A11C4E24D6007872E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893AF79F1C4E24D6007872E2 /* CYNews */,
+				893AF7B81C4E24D6007872E2 /* CYNewsTests */,
+				893AF7C31C4E24D6007872E2 /* CYNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893AF79E1C4E24D6007872E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893AF7B31C4E24D6007872E2 /* LaunchScreen.storyboard in Resources */,
+				893AF7B01C4E24D6007872E2 /* Assets.xcassets in Resources */,
+				893AF7AE1C4E24D6007872E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893AF7B71C4E24D6007872E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893AF7C21C4E24D6007872E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893AF79C1C4E24D6007872E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893AF7AB1C4E24D6007872E2 /* ViewController.m in Sources */,
+				893AF7A81C4E24D6007872E2 /* AppDelegate.m in Sources */,
+				893AF7A51C4E24D6007872E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893AF7B51C4E24D6007872E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893AF7BE1C4E24D6007872E2 /* CYNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893AF7C01C4E24D6007872E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893AF7C91C4E24D6007872E2 /* CYNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		893AF7BB1C4E24D6007872E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 893AF79F1C4E24D6007872E2 /* CYNews */;
+			targetProxy = 893AF7BA1C4E24D6007872E2 /* PBXContainerItemProxy */;
+		};
+		893AF7C61C4E24D6007872E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 893AF79F1C4E24D6007872E2 /* CYNews */;
+			targetProxy = 893AF7C51C4E24D6007872E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		893AF7AC1C4E24D6007872E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893AF7AD1C4E24D6007872E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		893AF7B11C4E24D6007872E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893AF7B21C4E24D6007872E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893AF7CB1C4E24D6007872E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		893AF7CC1C4E24D6007872E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893AF7CE1C4E24D6007872E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qf.1518.com.CYNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		893AF7CF1C4E24D6007872E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qf.1518.com.CYNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		893AF7D11C4E24D6007872E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qf.1518.com.CYNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYNews.app/CYNews";
+			};
+			name = Debug;
+		};
+		893AF7D21C4E24D6007872E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qf.1518.com.CYNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYNews.app/CYNews";
+			};
+			name = Release;
+		};
+		893AF7D41C4E24D6007872E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qf.1518.com.CYNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		893AF7D51C4E24D6007872E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qf.1518.com.CYNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893AF79B1C4E24D6007872E2 /* Build configuration list for PBXProject "CYNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893AF7CB1C4E24D6007872E2 /* Debug */,
+				893AF7CC1C4E24D6007872E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893AF7CD1C4E24D6007872E2 /* Build configuration list for PBXNativeTarget "CYNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893AF7CE1C4E24D6007872E2 /* Debug */,
+				893AF7CF1C4E24D6007872E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		893AF7D01C4E24D6007872E2 /* Build configuration list for PBXNativeTarget "CYNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893AF7D11C4E24D6007872E2 /* Debug */,
+				893AF7D21C4E24D6007872E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		893AF7D31C4E24D6007872E2 /* Build configuration list for PBXNativeTarget "CYNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893AF7D41C4E24D6007872E2 /* Debug */,
+				893AF7D51C4E24D6007872E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 893AF7981C4E24D6007872E2 /* Project object */;
+}
